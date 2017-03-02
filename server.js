@@ -16,7 +16,7 @@ app.use(morgan('common'));
 // so there's some data to look at
 ShoppingList.create('beans', 2);
 ShoppingList.create('tomatoes', 3);
-ShoppingList.create('peppers', 4);
+ShoppingList.create('peppers', 4); 
 
 // when the root of this router is called with GET, return
 // all current ShoppingList items
